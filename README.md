@@ -20,7 +20,7 @@ Step:
                     "username": "admin"
                   }
 
-2. Add movie
+2. Add movie:
    Admin user only can add the movie
    Method : POST
    Request body: 
@@ -28,12 +28,12 @@ Step:
                     "movieName": "Race"
                   }
                   
-3. Get All Movie
+3. Get All Movie:
 
     URL : http://localhost:9090/movieticket/movie/get/all
     Method :GET
 
-4. Ticket booking API
+4. Ticket booking API: 
     URL: http://localhost:9090/movieticket/movie/ticket/lock
     Method : POST
     Request body:
@@ -52,7 +52,7 @@ Step:
               } 
              referenceId -> This ID used to confirm the ticket/seat
              
-5. Ticket confirm API
+5. Ticket confirm API: 
     This API used to confirm the ticket/seat. The referenceId can get from the ticket booking api.
     Method : POST
     Request:
