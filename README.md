@@ -13,7 +13,8 @@ Step:
 1. Create user with user/add endpoint API
    Method : POST
    Role : admin , user
-   Request Body :  {
+   Request Body : 
+               {
                     "password": "test",
                     "role": "admin",
                     "username": "admin"
@@ -22,9 +23,11 @@ Step:
 2. Add movie
    Admin user only can add the movie
    Method : POST
-   Request body:  {
+   Request body: 
+                 {
                     "movieName": "Race"
                   }
+                  
 3. Get All Movie
 
     URL : http://localhost:9090/movieticket/movie/get/all
@@ -42,8 +45,9 @@ Step:
                   ]
                 }
                 
-    Response :{
-                "referenceId": 1,  This ID used confirm the ticket/seat
+    Response :
+              {
+                "referenceId": 1,  "This ID used confirm the ticket/seat"
                 "status": true
               } 
               
