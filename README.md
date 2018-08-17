@@ -47,10 +47,11 @@ Step:
                 
     Response :
               {
-                "referenceId": 1,  "This ID used confirm the ticket/seat"
+                "referenceId": 1,  
                 "status": true
               } 
-              
+             referenceId -> This ID used to confirm the ticket/seat
+             
 5. Ticket confirm API
     This API used to confirm the ticket/seat. The referenceId can get from the ticket booking api.
     Method : POST
